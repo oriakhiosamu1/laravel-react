@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  /* margin-bottom: 30px !important; */
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
