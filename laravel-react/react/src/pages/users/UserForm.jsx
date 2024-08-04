@@ -37,7 +37,7 @@ const UserForm = () => {
         .then(({data})=>{
             setIsLoading(false);
             setUser(data)
-            navigate('/users');
+            navigate('/dashboard');
             // SHOW NOTIFICATION
         })
         .catch((error)=>{

@@ -55,7 +55,8 @@ const UserUpdate = () => {
             // SHOW NOTIFICATIONS
             setUser(data)
             setIsLoading(false);
-            navigate('/users');
+            // navigate('/users');
+            navigate('/dashboard')
         })
         .catch((error)=>{
             console.log(error)

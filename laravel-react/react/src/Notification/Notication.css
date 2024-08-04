@@ -1,0 +1,14 @@
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C0A21B;
+    border-radius: 10px;
+    color: #C0A21B;
+    margin-bottom: 20px;
+}

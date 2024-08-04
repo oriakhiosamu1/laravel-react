@@ -1,0 +1,36 @@
+.paginate-display{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* #C0A21B */
+button{
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.next{
+    background-color: #C0A21B;
+    color: white;
+}
+
+.next:hover{
+    border-color: #C0A21B;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: #C0A21B;
+}
+
+.prev:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+}
